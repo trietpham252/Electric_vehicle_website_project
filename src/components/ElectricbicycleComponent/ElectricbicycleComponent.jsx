@@ -3,7 +3,6 @@ import { Space, Button } from 'antd';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';  // Import icon mũi tên
 import ImageComponent from '../../components/ImageComponent/ImageComponent';
 import ButtonComponent from '../../components/ButtonComponent/ButtonComponent';
-import { Link } from 'react-router-dom'; // Để sử dụng Link cho điều hướng
 import './Style.scss';
 
 const ElectricbicycleComponent = () => {
