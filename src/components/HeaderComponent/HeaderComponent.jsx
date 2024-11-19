@@ -253,7 +253,12 @@ const HeaderComponent = () => {
           onSearch={onSearch} 
           enterButton
           />
-
+          <ButtonComponent
+          type="primary"
+          icon={<ShoppingOutlined />}
+          onClick={onClick}
+          href={'/viewInvoice'}
+          />
         </Space>
         
        

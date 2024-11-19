@@ -45,13 +45,13 @@ export const routes = [
   },
 
   {
-    path: '/ViewInvoicePage',
+    path: '/viewInvoice',
     page: ViewInvoicePage,
     isShowHeader: true
   },
 
   {
-    path: '/ViewInvoiceDetails',
+    path: '/viewInvoiceDetails',
     page: ViewInvoiceDetailsPage,
     isShowHeader: true
   },
