@@ -1,0 +1,21 @@
+
+.all-product-details {
+    height: auto;
+    width: 90%;  /* Chuyển từ 60% sang 90% để rộng hơn */
+    max-width: 1200px;  /* Đảm bảo không quá lớn trên màn hình lớn */
+    margin: auto;
+    padding: 32px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Đặt các phần tử theo chiều dọc */    
+  
+    .product-details{
+        width: 100%; /* Chiếm toàn bộ chiều rộng phần tử cha */
+        max-width: 1200px; /* Giới hạn chiều rộng tối đa */
+        margin: 0 auto; /* Căn giữa */
+        padding: 20px; /* Thêm khoảng cách bên trong */
+        box-sizing: border-box; /* Đảm bảo padding được tính trong kích thước */
+
+    }
+  }

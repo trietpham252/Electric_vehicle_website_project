@@ -1,0 +1,85 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #d9d9d9;
+
+    .header-i {
+        width: 100%;
+        max-width: 1200px; /* Giới hạn chiều rộng để căn giữa header */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px; /* Thêm padding để tạo khoảng trống giữa các phần */
+        gap: 100px;
+        
+
+        .hd-c1 {
+            .im-header {
+                width: 100px; /* Tăng một chút kích thước logo */
+            }
+        }
+
+        .hd-c2 {
+            display: flex;
+            align-items: center;
+            gap: 20px; /* Điều chỉnh khoảng cách giữa các menu */
+            
+            
+            .link {
+                color: black;
+                font-weight: 500;
+                cursor: pointer;
+                font-size: 18px;
+
+                .ii {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px; /* Điều chỉnh khoảng cách giữa text và icon */
+                    width: 136px;
+                   
+                }
+                .click1{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px; /* Điều chỉnh khoảng cách giữa text và icon */
+                    width: 88px;
+                    
+                }
+
+                .click2{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px; /* Điều chỉnh khoảng cách giữa text và icon */
+                    width: 114px;
+                   
+                }
+
+                &:hover {
+                    color: #F27405;
+                }
+            }
+        }
+
+        .hd-c3 {
+            .s-header {
+                width: 200px; /* Đặt kích thước hợp lý cho ô tìm kiếm */
+               
+
+                input {
+                    border: none;
+                    outline: none;
+                    padding: 5px;
+                    color: white;
+                  
+                }
+
+                .ant-input-search-button {
+                    background-color: #F27405;
+                    color: white;
+                    border: none;
+                }
+            }
+        }
+    }
+}
